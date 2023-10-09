@@ -16,85 +16,96 @@ p {
     line-height: 150%
 }
 
-.logo {
+.link {
     text-decoration: none;
     color: var(--NAVY-BLUE);
-    text-transform: uppercase;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 116.667%;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
 }
 
-.logo span {
+.logo-web {
     color: var(--IRIS);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 116.667%;
-}
-
-.menu a {
     text-decoration: none;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    color: var(--NAVY-BLUE);
-    line-height: 150%;
-    padding: 0;
-    margin: 0;
+    text-transform: uppercase;
 }
 
-.menu a:hover {
+.list a:hover {
     color:var(--IRIS);
 }
 
-ul {
+.list {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
 }
 
-.hero {
+.hero-text {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
     background-color: var(--NAVY-BLUE);
     color: var(--WHITE);
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
 }
 
-.hero h1{
-    text-align: center;
-}
-
-button {
+.hero-btn {
     background-color: var(--IRIS);
     color: var(--WHITE);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500; 
-    line-height: 107.143%;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:hover {
+    color: var(--WHITE);
+    cursor: pointer;
 }
 
 h2 {
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 111.111%;
 }
 
-footer {
+.bg-dark {
     color: var(--CLOUD);
     background-color: var(--NAVY-BLUE); 
 }
 
-footer .logo a{
+footer a {
+    text-decoration: none;
+}
+
+.logo-studio-nav {
+    color: var(--NAVY-BLUE);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+
+.logo-studio-footer {
     color: var(--CLOUD);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    text-decoration: none;
+    text-transform: uppercase; 
 }
