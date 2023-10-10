@@ -3,6 +3,7 @@
     --NAVY-BLUE: #2E2F42;
     --WHITE: #FFF;
     --CLOUD: #F4F4FD;
+    --SLATE: #434455;
 }
 
 body {
@@ -10,13 +11,23 @@ body {
     color: var(--NAVY-BLUE);
 }
 
-p {
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 150%
+.benefits {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    color: var(--NAVY-BLUE)
 }
 
-.link {
+.text {
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.nav-link {
     text-decoration: none;
     color: var(--NAVY-BLUE);
     font-family: Roboto;
@@ -24,6 +35,30 @@ p {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.32px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--IRIS);
+}
+
+.contacts {
+    text-decoration: none;
+    color: var(--SLATE);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--IRIS);
+}
+
+.active {
+    color: var(--IRIS);
 }
 
 .logo-web {
@@ -36,14 +71,22 @@ p {
     text-transform: uppercase;
 }
 
-.list a:hover {
-    color:var(--IRIS);
+.logo {
+    text-decoration: none;
 }
 
 .list {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    color: var(--NAVY-BLUE)
 }
 
 .hero-text {
@@ -88,10 +131,6 @@ p {
     background-color: var(--NAVY-BLUE); 
 }
 
-footer a {
-    text-decoration: none;
-}
-
 .logo-studio-nav {
     color: var(--NAVY-BLUE);
     font-family: Raleway;
@@ -100,7 +139,6 @@ footer a {
     line-height: 116.667%;
     text-decoration: none;
     text-transform: uppercase;
-   
 }
 
 .logo-studio-footer {
@@ -110,4 +148,10 @@ footer a {
     line-height: 116.667%;
     text-decoration: none;
     text-transform: uppercase; 
+}
+
+.footer-text {
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    color: var(--WHITE);
 }
